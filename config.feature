@@ -30,7 +30,7 @@
             | 45 |
             | 11 |
 
-            Cenário: Limpar
+            Cenário: Limpar seleção
             Quando concluir a seleção de cor, tamanho e quantidade dos produtos
             E clicar no botão "limpar"
             Então as opções deverão voltar ao estado original 
