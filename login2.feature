@@ -8,21 +8,13 @@
             Contexto:
             Dado que estou na tela de login da EBAC-SHOP
 
-            Cenário: Dados válidos
-            Quando inserir o <username> ou <email> válidos
-            Então o login no site deve ser realizado com sucesso e direcionado para a tela de checkout
+            Esquema do Cenário: Dados válidos e inválidos
+            Quando inserir o <username> ou <email> 
+            Então o sistema deve exibir a <mensagem>
 
             Exemplos:
-            | username   | email            |
-            | Tamires123 | tamires@ebac.com |
-            | Fabio11    | fabio@ebac.com   |
-            | Cami300    | cami@ebac.com.br |
-
-            Cenário: Dados inválidos
-            Quando inserir o <username> ou <email> inválidos
-            Então deve exibir uma mensagem de alerta “Usuário ou senha inválidos”
-
-            Exemplos:
-            | username | email      |
-            | null122  | 123@go.com |
-            | AIJ      | aij@kal.br |
+            | username   | email            | mensagem                   |
+            | Tamires123 | tamires@ebac.com | Bem vinda, Tamires         |
+            | Fabio11    | fabio@ebac.com   | Bem vindo, Fábio           |
+            | null122    | 123@go.com       | Usuário ou senha inválidos |
+            | AIJ        | aij@kal.br       | Usuário ou senha inválidos |
