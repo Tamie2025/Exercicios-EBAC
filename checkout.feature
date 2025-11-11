@@ -18,7 +18,7 @@
             E prosseguir para afinalização do cadastro
             Então o sistema deverá apresentar o alerta "todos os campos obrigatórios devem ser preenchidos"
 
-            Cenário: E-mail inválido
+            Esquema do Cenário: E-mail inválido
             Quando inserir um <email> com formato inválido
             Então o sistema deverá apresentar o alerta "e-mail informado é inválido"
 
