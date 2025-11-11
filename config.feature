@@ -25,6 +25,7 @@
             Então será apresentado a mensagem "Limite máximo por compra de até 10 produtos"
 
             Exemplos:
+            |numero|
             | 15 |
             | 23 |
             | 45 |
@@ -34,4 +35,5 @@
             Quando concluir a seleção de cor, tamanho e quantidade dos produtos
             E clicar no botão "limpar"
             Então as opções deverão voltar ao estado original 
+
     
